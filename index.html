@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Sincere Apology</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #990899 0%, #f5aee9 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 600px;
+            width: 100%;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            animation: fadeIn 1s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .heart {
+            font-size: 100px;
+            color: deeppink;
+            animation: pulse 1s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                opacity: 0.8;
+            }
+            50% {
+                transform: scale(1.2);
+                opacity: 1;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 0.8;
+            }
+        }
+
+        @keyframes heartbeat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            font-weight: 300;
+        }
+
+        .message {
+            color: #34495e;
+            font-size: 1.1em;
+            line-height: 1.8;
+            margin-bottom: 30px;
+            text-align: left;
+        }
+
+        .highlight {
+            background: linear-gradient(120deg, #a8edea 0%, #fed6e3 100%);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+
+        .promise-box {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin: 30px 0;
+            font-weight: 500;
+        }
+
+        .respect-note {
+            background: #f8f9fa;
+            border-left: 4px solid #28a745;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 10px 10px 0;
+            font-style: italic;
+        }
+
+        .flowers {
+            font-size: 30px;
+            margin: 20px 0;
+            opacity: 0.7;
+        }
+
+        .signature {
+            margin-top: 40px;
+            font-style: italic;
+            color: #7f8c8d;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 30px 20px;
+                margin: 10px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .message {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heart">❤</div>
+        
+        <h1>I'm Truly Sorry</h1>
+        
+        <div class="message">
+            <p>I want to take a moment to sincerely apologize for my recent behavior. I know that I was <span class="highlight">rude and dismissive</span>, and I realize that I ignored you when you deserved my attention and respect.</p>
+            
+            <p>Looking back, I can see how my actions must have hurt you, and I feel genuinely sorry about that. You didn't deserve to be treated that way, and I take full responsibility for my behavior.</p>
+        </div>
+
+        <div class="promise-box">
+            <strong>My Promise to You:</strong><br>
+            I understand this might be my last chance to reach out, and I want you to know that I respect your boundaries completely. I won't disturb you or force any further communication if you don't want it.
+        </div>
+
+        <div class="respect-note">
+            <strong>I respect your choice:</strong>I just wanted to say that I respect your feelings and I understand if you don’t feel the same way. That’s completely okay. I’m sorry if I made you uncomfortable or put you in a difficult situation in any way. It was never my intention.
+        </div>
+
+        <div class="flowers">🌸 🌺 🌸</div>
+
+        <div class="message">
+            <p>I hope someday you might find it in your heart to forgive me, but I understand if that's not possible right now. Thank you for all the times you were patient with me before I let you down.</p>
+            
+            <p>I wish you all the happiness and peace you deserve.</p>
+        </div>
+
+        <div class="signature">
+            With sincere regret and hope for your understanding
+        </div>
+    </div>
+</body>
+</html>
